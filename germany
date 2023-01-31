@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+
+  <title>Image Gallery</title>
+  <meta name="description" content="Responsive Image Gallery">
+  <meta name="author" content="Ligma">
+
+  <style type="text/css">
+  </style>
+</head>
+<body>
+<div id="gallery">
+
+   <img src="images/g01.jpg">
+   <img src="images/g03.jpg">
+   <img src="images/g04.jpg">
+   <img src="images/g05.jpg">
+   <img src="images/g06.jpg">
+   <img src="images/g07.jpg">
+   <img src="images/g08.jpg">
+   <img src="images/g09.jpg">
+   <img src="images/g10.jpg">
+   <img src="images/g11.jpg">
+   <img src="images/g12.jpg">
+   <img src="images/g13.jpg">
+   <img src="images/g14.jpg">
+   <img src="images/g15.jpg">
+   <img src="images/g16.jpg">
+   <img src="images/g17.jpg">
+   <img src="images/g18.jpg">
+   <img src="images/g19.jpg">
+   <img src="images/g20.jpg">
+
+  </div>
+ 
+ </body>
+</html> 
