@@ -160,7 +160,7 @@
 					</div>
 					</section>
 				<!-- Contact -->
-					<section id="contact" class="two">
+				<section id="contact" class="two">
 						<div class="container">
 
 							<header>
@@ -169,18 +169,24 @@
 
 							<p>For all inquires, please fill out the form below!</p>
 
-							<form method="post" action="#">
+							<form class = "mb-5" method="post" action="submit.php">
 								<div class="row">
 									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
 									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea name="message" placeholder="message"></textarea>
 									</div>
 									<div class="col-12">
 										<input type="submit" value="Send Message" />
-								</div>
+									</div>
+										<div class="col-12">
+										<input type = "hidden" id="capatcha">
+										<input class="form-control" type="num" name="capatcha-response">
+									</div>
+									
 								</div>
 							</form>
+							<script src="form-to-email/js/script.js"></script>
 			</section>
 			<!-- Footer -->
 			<div id="footer">
